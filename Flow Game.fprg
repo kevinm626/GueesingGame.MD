@@ -1,0 +1,26 @@
+<?xml version="1.0"?>
+<flowgorithm fileversion="4.2">
+    <attributes>
+        <attribute name="name" value="Flow Game"/>
+        <attribute name="authors" value="kevin"/>
+        <attribute name="about" value=""/>
+        <attribute name="saved" value="2024-09-23 01:48:00 AM"/>
+        <attribute name="created" value="a2V2aW47VkVOR0VBTkNFOzIwMjQtMDktMjM7MDE6MjA6NDIgQU07MjQ1Mw=="/>
+        <attribute name="edited" value="a2V2aW47VkVOR0VBTkNFOzIwMjQtMDktMjM7MDE6NDg6MDAgQU07MjsyNTY2"/>
+    </attributes>
+    <function name="Main" type="None" variable="">
+        <parameters/>
+        <body>
+            <declare name="SecretNumber" type="Integer" array="False" size=""/>
+            <declare name="UserGuess" type="Integer" array="False" size=""/>
+            <assign variable="SecretNumber" expression="Random(10)"/>
+            <output expression="&quot;Please enter a Number between 0 and 10&quot;" newline="True"/>
+            <input variable="UserGuess"/>
+            <while expression="UserGuess &lt;&gt; SecretNumber">
+                <output expression="&quot;Please enter a Number between 0 and 10&quot;" newline="True"/>
+                <input variable="UserGuess"/>
+            </while>
+            <output expression="&quot;Correct, Thanks for playing!&quot;" newline="True"/>
+        </body>
+    </function>
+</flowgorithm>
