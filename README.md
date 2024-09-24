@@ -1,3 +1,3 @@
-# GueesingGame.MD
+# GuessingGame.MD
  ```mermaid
 ```
