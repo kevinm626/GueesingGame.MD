@@ -1,2 +1,3 @@
 # GueesingGame.MD
- 
+ ```mermaid
+```
